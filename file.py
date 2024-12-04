@@ -1,0 +1,18 @@
+f=open("C:\\Users\\a\\Desktop\\python\\abcd.txt","r")
+print(f.readable())
+f=open("C:\\Users\\a\\Desktop\\python\\abcd.txt","w")
+print(f.writable())
+f=open("C:\\Users\\a\\Desktop\\python\\abcd.txt","r")
+print(f.readlines(4))
+f=open("C:\\Users\\a\\Desktop\\python\\abcd.txt","w")
+print(f.write("hi bro where are you"))
+f=open("C:\\Users\\a\\Desktop\\python\\abcd.txt","a")
+print(f.write("hi bro where are you"))
+
+f=open("C:\\Users\\a\\Desktop\\python\\abcd.txt","r")
+print(f.readable())
+
+f=open("C:\\Users\\a\\Desktop\\python\\abcd.txt","r")
+print(f.readlines(4))
+f=open("C:\\Users\\a\\Desktop\\python\\abcd.txt","a")
+print(f.write("how are you i am fine"))
